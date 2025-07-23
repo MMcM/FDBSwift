@@ -47,7 +47,7 @@ public extension Bytes {
 
     @inlinable
     var string: String {
-        String(bytes: self, encoding: .ascii)!
+        String(bytes: self, encoding: .isoLatin1)!
     }
 }
 
