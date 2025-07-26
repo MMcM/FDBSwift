@@ -1,6 +1,6 @@
 public extension FDB {
     /// A high-level FDB key structure for managing nested keys. Powered by Tuple layer concept.
-    struct Subspace {
+    struct Subspace: Sendable {
         /// Existing key prefix
         public let prefix: Bytes
 
